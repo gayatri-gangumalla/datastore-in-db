@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+form {
+            width: 350px;
+            padding: 20px 30px;
+            border: 5px solid #3498db; /* Blue frame */
+            border-radius: 150px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            background-color: cream;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        
+         .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        </style>
+</head>
+<body style="background-image:url(./image15.jpg); background-position:center  ;  background-size: 500px";>
+
+<div>
+<form action="LoginServlet" method="post">
+<h2 style="color:pink;">login page</h2>
+   <h2 style="color:yellow;"> email: <input type="email" name="email" required><br><br>
+   <h2 style="color:yellow;"> Password: <input type="password" name="password" required><br><br>
+    <input type="submit" value="Login">
+</form>
+</div>
+</body>
+</html>
