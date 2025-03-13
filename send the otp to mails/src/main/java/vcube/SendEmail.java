@@ -23,8 +23,8 @@ return String.format("%6d",number);
 public boolean sendEmail(User user) {
 	boolean test=false;
 	String toEmail=user.getEmail();
-	String fromEmail="gayatrigangumalla111@gmail.com";
-	String password="erbi fjag pbid klwj";
+	String fromEmail="yourmail@gmail.com";
+	String password="your app password";
 	
 
 
