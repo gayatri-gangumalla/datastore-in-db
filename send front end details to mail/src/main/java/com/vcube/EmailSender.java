@@ -12,7 +12,7 @@ import javax.mail.internet.MimeMessage;
 
 public class EmailSender {
 	public static void sendEmail(String to, String subject, String messageText) {
-        final String from = "gayatrigangumalla111@gmail.com";
+        final String from = "yourmail@gmail.com";
         final String password = "anuu slbr kdhy gjei";
 
         Properties props = new Properties();
